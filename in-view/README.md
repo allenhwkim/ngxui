@@ -25,7 +25,7 @@ Utilize HTML5 IntersectionObserver
  - Chrome 51+
  - Edge 15+
  - Firefox 55+
- - IE11 N/A. Please use Polyfill 
+ - IE11 N/A. Please use Polyfill  
    `<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>`
  - Opera 38+
 
