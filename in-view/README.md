@@ -10,16 +10,16 @@ Utilize HTML5 IntersectionObserver
         * emit “nguiNotInView”
     * execute transitionFn
 
-##Input
-[nguiInViewOptions]=“object” 
+## Input
+* [nguiInViewOptions]=“object” 
     * root  https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options
     * rootMargin  https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options
     * threshold  https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options
     * transitionFn,  a function, default change opacity by 2% between 0 - 50%.
 
-##Output
-(nguiInView)=“doSomething()” 
-(nguiNotInView)=“doSomething()”
+## Outputs
+* (nguiInView)=“doSomething()” 
+* (nguiNotInView)=“doSomething()”
 
 ## IntersectionObserver Browser Support
  - Chrome 51+
